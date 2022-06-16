@@ -11,7 +11,7 @@ This paper introduces Adversarial Taboo, an adversarial language game in which m
 + torch>=1.6.0
 + transformers==4.17.0
 
-# Data
+# Data Preparation
 The game in the paper is built on existing OpenQA and conversation models. In our experiments, we focus on studying the attack and defense strategies. We generate the question-answer pairs and post-response pairs in advance, and sample the pairs according to the strategies to simulate a game, which is more efficient and convenient.
 
 Specifically, to generate the pair data, we use the following repos and raw data:
