@@ -144,7 +144,7 @@ if __name__ == '__main__':
     game(model="ConceptFlow", strategy="API_based", defender_guess=False)
     game(model="ConceptFlow", strategy="API_based", defender_guess=True)
 
-    # DialoDialoGPT experiments
+    # DialoGPT experiments
     game(model="DialoGPT", strategy="golden_trigger", defender_guess=False)
     game(model="DialoGPT", strategy="golden_trigger", defender_guess=True)
 
